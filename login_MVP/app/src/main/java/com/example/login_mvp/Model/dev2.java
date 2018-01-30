@@ -6,13 +6,13 @@ package com.example.login_mvp.Model;
  * comment :
  */
 public class dev2 {
-    public String getDev2() {
-        return dev2;
+    public String getPzy() {
+        return pzy;
     }
 
-    public void setDev2(String dev2) {
-        this.dev2 = dev2;
+    public void setPzy(String pzy) {
+        this.pzy = pzy;
     }
 
-    String dev2;
+    String pzy;
 }
