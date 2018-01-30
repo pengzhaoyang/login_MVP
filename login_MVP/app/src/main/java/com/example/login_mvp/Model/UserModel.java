@@ -8,6 +8,16 @@ public class UserModel implements IUser {
     String name;
     String passwd;
 
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    String sex;
+
     public UserModel(String name, String passwd) {
         this.name = name;
         this.passwd = passwd;
