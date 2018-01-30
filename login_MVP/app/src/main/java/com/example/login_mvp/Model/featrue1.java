@@ -8,6 +8,16 @@ package com.example.login_mvp.Model;
 public class featrue1 {
     String name;
 
+    public String getDev() {
+        return dev;
+    }
+
+    public void setDev(String dev) {
+        this.dev = dev;
+    }
+
+    String dev;
+
     public String getName() {
         return name;
     }
